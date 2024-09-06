@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    padding: 16px;
+    background-color: #009B77;
+    color: white;
+    margin-bottom: 16px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header nav li{
+    display: inline;
+    margin-right: 16px;
+}
+
+li{
+    list-style-type: none;
+}
+header nav li a{
+    text-decoration: none;
+    color:  white;
+    font-size: 16px;
+}
+
+#destaque2{
+    margin-bottom: 12px;
+}
+
+h2{
+    margin-bottom: 16px;
+}
+
+.unoticias img{
+    margin-right: 12px;
+}
+
+.unoticias{
+    margin-bottom: 42px;
+    border-top: 1px dashed black;
+}
+
+h3{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+h4{
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #009B77;
+}
+
+h5{
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #009B77;
+}
+
+time{
+    font-size: 12px;
+}
+
+th, td{
+    padding: 8px;
+}
+
+table{
+    text-align: center;
+}
+
+.destaques{
+    margin-bottom: 16px;
+}
+
+form input, .form-check{
+    margin-bottom: 32px;
+}
+
+.form-check{
+    margin-top: 32px;
+}
+
+.imagem-grande{
+    width: 500px;
+    height: 660px;
+}
+
+.imagem-media{
+    width: 500px;
+    height: 324px;
+}
+
+.imagem-pequena{
+    width: 400px;
+    height: 200px;
+}

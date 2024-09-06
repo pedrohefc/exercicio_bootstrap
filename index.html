@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>EE Ebac esports</h1>
+        <div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#destaques">Destaques</a>
+                    </li>
+                    <li>
+                        <a href="#">Notícias</a>
+                    </li>
+                    <li>
+                        <a href="#">Assine já</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="destaques">
+        <h2>Destaques</h2>
+        <div class="row">
+            <div class="col-6">
+                <img class="imagem-grande" src="https://images.pexels.com/photos/159515/football-american-football-runner-player-159515.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagem futebol americano">
+            </div>
+            <div class="col-6">
+                <img id="destaque2" class="imagem-media" src="https://images.pexels.com/photos/209977/pexels-photo-209977.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagem tenis">
+                <img class="imagem-media" src="https://images.pexels.com/photos/848618/pexels-photo-848618.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8">
+            <h2>Últimas noticias</h2>
+            <div class="d-flex unoticias">
+                <img class="imagem-pequena" src="https://s2-ge.glbimg.com/jAccaXIeTw9F_ufUMUIi67Kares=/0x169:1440x979/1080x608/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/D/y/M53SrFQByapIv4JJ3Iiw/hugo.jfif" alt="">
+            <div>
+                <h3>Futebol</h3>
+                <h4>Palmeiras provoca Corinthians por camisa verde no CT; Timão responde com taças do mundial"</h4>
+                <h5>
+                    <ul>
+                        <li>
+                            Franquia da NFL entregou uma camisa com o nome do clube alvinegro, e Verdão brincou nas redes sociais
+                        </li>
+                    </ul>
+                </h5>
+                <time>Há 2 horas - Em Futebol</time>
+            </div>
+            </div>
+            <div class="d-flex unoticias">
+                <img class="imagem-pequena" src="https://s2-ge.glbimg.com/RAj4b2b9JIB-uQbYZ-jKFoPDUEk=/0x0:4160x2340/1080x608/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/F/v/gENXozQUGxIfFSRTdxMQ/whatsapp-image-2024-09-05-at-16.01.08.jpeg" alt="">
+            <div>
+                <h3>Paralimpíadas</h3>
+                <h4>Brasil perde nos pênaltis e está fora da final do futebol de cegos pela 1ª vez</h4>
+                <h5>
+                    <ul>
+                        <li>
+                            
+Brasil conquista cinco medalhas e se aproxima de recorde
+                        </li>
+                    </ul>
+                </h5>
+                <time>Há 2 horas - Em paralimpíadas</time>
+            </div>
+            </div>
+            <div class="d-flex unoticias">
+                <img class="imagem-pequena" src="https://s2-ge.glbimg.com/JSCde739JmECqT5HKAu8Mt4vNMM=/0x0:2145x1207/1080x608/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/H/P/9iUvB5QYGRNyijAXjhlw/6b277a8016fb41b052f8066451bfa794271640d9.jpg" alt="">
+            <div>
+                <h3>Eliminatórias</h3>
+                <h4>Bolívia goleia a Venezuela nas Eliminatórias Sul-Americanas
+
+                </h4>
+                <h5>
+                    <ul>
+                        <li>
+                            Em noite inspirada, venezuela não toma conhecuimento de seu rival
+                        </li>
+                    </ul>
+                </h5>
+                <time>Há 2 horas - Em eliminatórias</time>
+            </div>
+            </div>
+            <div class="d-flex unoticias">
+                <img class="imagem-pequena" src="https://s2-ge.glbimg.com/jbdOvYwbT_KIA0A0T8vPRSxfZic=/0x280:4634x2887/1080x608/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/5/y/OY0AA1Q3GUHntES8OpPg/gettyimages-2170411330.jpg" alt="">
+            <div>
+                <h3>Futebol internacional</h3>
+                <h4>Cristiano Ronaldo chega aos 900 gols na carreira; confira os números</h4>
+                <h5>
+                    <ul>
+                        <li>
+                            Pepe é homenageado com mosaico 3D
+                        </li>
+                    </ul>
+                </h5>
+                <time>Há 2 horas - Em futebol internacional</time>
+            </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <h2>Quadro de medalhas</h2>
+            <table class="table table-success">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Países</th>
+                        <th>Ouro</th>
+                        <th>Prata</th>
+                        <th>Bronze</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Ing</td>
+                        <td>74</td>
+                        <td>55</td>
+                        <td>37</td>
+                        <td>166</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Chi</td>
+                        <td>36</td>
+                        <td>29</td>
+                        <td>19</td>
+                        <td>84</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Eua</td>
+                        <td>27</td>
+                        <td>33</td>
+                        <td>17</td>
+                        <td>77</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Hol</td>
+                        <td>21</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>36</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Bra</td>
+                        <td>15</td>
+                        <td>18</td>
+                        <td>29</td>
+                        <td>62</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h2>Assine já</h2>
+            <form>
+                <label class="form-label" for="nome">Nome</label>
+                <input class="form-control" type="text" id="nome">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+                <label for="tel" class="form-label">Telefone</label>
+                <input type="tel" class="form-control" id="email">
+                <div class="form-check form-switch">
+                    <label for="aceito-termos" class="form-check-label">Li e concordo com os termos do site</label>
+                    <input class="form-check-input" type="checkbox" id="aceito-termos">
+                </div>
+                <button class="btn btn-success">Enviar</button>  
+            </form>
+        </div>
+    </div>
+</div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
